@@ -9,4 +9,6 @@ Download the project and import it as standalone java project into eclipse.
 
 /javadoc - just documentation for our project
 
+/resources - contains input.txt file 
+
 Thank you
