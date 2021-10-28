@@ -1,0 +1,61 @@
+/* set header background black */
+.navbar-default {
+	background-color: #000;
+	border-color: #000;
+	color: #fff;
+}
+
+/* set footer background black and with fixed position*/
+.footer {
+	position: fixed;
+	min-height: 50px;
+	left: 0;
+	bottom: 0;
+	width: 100%;
+	background-color: #000;
+	color: white;
+	text-align: center;
+}
+
+/* set header content styles*/
+.header-info {
+	font-size: 14px;
+	padding: 1%;
+}
+
+/* parent div - draggable area height and background*/
+#draggable {
+	height: 400px;
+	background: #ccc;
+}
+
+/* inner div - dragme styles*/
+.dragme {
+	width: 250px;
+	height: 150px;
+	border: 5px solid green;
+	padding: 30px;
+}
+
+/* inner div - dragme styles at center postion*/
+.dragme-position-center {
+	position: fixed;
+	top: 50%;
+	left: 50%;
+	width: 250px;
+	height: 150px;
+	border: 5px solid green;
+	padding: 30px;
+	transform: translate(-50%, -50%);
+}
+/* inner div - dragme styles at lower right postion*/
+.dragme-position-lower-right {
+	position: absolute !important;
+	bottom: 0;
+	right: 0;
+	margin: auto;
+	width: 250px;
+	height: 150px;
+	border: 5px solid green;
+	padding: 30px;
+}

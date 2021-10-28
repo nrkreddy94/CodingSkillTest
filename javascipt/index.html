@@ -1,0 +1,52 @@
+<html lang="en">
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<!-- Load BootStrap Styles -->
+<link rel="stylesheet"
+	href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+<!-- Load jquery and jquery ui libraries -->
+<script type="text/javascript"
+	src="https://code.jquery.com/jquery-3.6.0.js"></script>
+<script type="text/javascript"
+	src="https://code.jquery.com/ui/1.13.0/jquery-ui.js"></script>
+
+<!-- Load our custom styles and scripts -->
+<link rel="stylesheet" href="style.css">
+<script type="text/javascript" src="index.js"></script>
+
+</head>
+
+<body>
+	<!-- Header part - start -->
+	<header class=" navbar navbar-default navbar-fixed-top">
+		<div class="container row">
+			<div class="col-md-4">
+				<span>Position: <input type="radio"
+					id="dragme-position-center" name="dragme-position"
+					value="dragme-position-center">   <label
+					for="dragme-position-center">Center</label>   <input type="radio"
+					id="dragme-position-lower-right" name="dragme-position"
+					value="dragme-position-lower-right">   <label
+					for="dragme-position-lower-right">Lower Right</label></span>
+			</div>
+			<div class="col-md-7">Press ESC to hide the window. Enter to
+				show it again.</div>
+			<div class="col-md-1">
+				<span id="clock"></span>
+			</div>
+		</div>
+	</header>
+	<!-- Header part - End -->
+	<!-- Main body - start -->
+	<div id="draggable" class="ui-widget-content">
+		<div id="dragme" class="dragme">
+			<span id="postion">Floating</span> <br /> <br /> <span id="label">Drag
+				Me Around...</span>
+		</div>
+	</div>
+	<!-- Main body - End -->
+	<!-- Footer part -->
+	<footer class="footer"> </footer>
+
+</body>
+</html>
